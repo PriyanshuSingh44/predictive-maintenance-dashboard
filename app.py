@@ -1,3 +1,4 @@
+import os
 import numpy as np
 from sklearn.svm import SVR
 from sklearn.preprocessing import StandardScaler
@@ -102,5 +103,6 @@ def update_output(n_clicks, param1, param2, param3):
     return f"Predicted Remaining Useful Life: {rul:.2f} hours", fig
 
 # Run the app
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
