@@ -31,3 +31,10 @@ pip install -r requirements.txt
 
 # Run the app
 python app.py
+```
+## 🚀 Live Demo
+
+👉 [Click here to try the app](https://predictive-maintenance-dashboard-cbh6.onrender.com)  
+
+[![View App](https://img.shields.io/badge/View-Dashboard-blue?style=for-the-badge)](https://predictive-maintenance-dashboard-cbh6.onrender.com)
+
