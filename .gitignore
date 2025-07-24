@@ -16,5 +16,6 @@ env.bak/
 # macOS & Linux hidden files
 .DS_Store
 Lib/ 
+Scripts
 *.exe
 *.pyc
